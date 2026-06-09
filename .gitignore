@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+*.pt          # model YOLOv8 (bisa 6MB - 100MB+, tidak perlu di-push)
+*.avi         # video output mentah
+output_raw.avi
+output_final.mp4
+runs/         # folder hasil tracking dari Ultralytics
